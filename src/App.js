@@ -14,8 +14,8 @@ function App() {
    <MyNav />
    <Home />
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/tracker" element={<Tracker />} />
+      <Route exact path="https://prachip1.github.io/crytozz" element={<Home />} />
+      <Route exact path="/https://prachip1.github.io/tracker" element={<Tracker />} />
     </Routes>
   </Router>
   
