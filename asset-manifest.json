@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cryptozz/static/css/main.e4e9893c.css",
+    "main.js": "/cryptozz/static/js/main.3db372b1.js",
+    "index.html": "/cryptozz/index.html",
+    "main.e4e9893c.css.map": "/cryptozz/static/css/main.e4e9893c.css.map",
+    "main.3db372b1.js.map": "/cryptozz/static/js/main.3db372b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4e9893c.css",
+    "static/js/main.3db372b1.js"
+  ]
+}
