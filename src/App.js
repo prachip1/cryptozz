@@ -15,7 +15,7 @@ function App() {
    <Home />
     <Routes>
       <Route exact path="/cryptozz" element={<Home />} />
-      <Route exact path="/tracker" element={<Tracker />} />
+      <Route exact path="/cryptozz/tracker" element={<Tracker />} />
     </Routes>
   </Router>
   
