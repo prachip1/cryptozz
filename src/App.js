@@ -12,10 +12,9 @@ function App() {
   <main className="bg-gray-900 w-screen lg:overflow-x-hidden">
   <Router>
    <MyNav />
-   <Home />
     <Routes>
-      <Route path="/cryptozz" element={<Home />} />
-      <Route path="/cryptozz/tracker" element={<Tracker />} />
+      <Route path="/" element={<Home />} />
+      <Route path="tracker" element={<Tracker />} />
     </Routes>
   </Router>
   
