@@ -15,7 +15,7 @@ function App() {
    <Home />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="tracker" element={<Tracker />} />
+      <Route path="/tracker" element={<Tracker />} />
     </Routes>
   </Router>
   
