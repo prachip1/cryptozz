@@ -13,8 +13,8 @@ function App() {
   <Router>
    <MyNav />
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="tracker" element={<Tracker />} />
+      <Route path="/cryptozz" element={<Home />} />
+      <Route path="/cryptozz/tracker" element={<Tracker />} />
     </Routes>
   </Router>
   
