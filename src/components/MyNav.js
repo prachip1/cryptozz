@@ -19,7 +19,7 @@ return(
                </div>
                {/*primary nav*/}
                <div className="flex items-center space-x-1 text-indigo-700 text-tiny lg:space-x-4 md:space-x-4">
-                <Link to="https://prachip1.github.io/cryptozz" className="py-1  text-slate-200 text-tiny hover:text-red-400 invisible md:visible lg:visible">Home</Link>
+                <Link to="/" className="py-1  text-slate-200 text-tiny hover:text-red-400 invisible md:visible lg:visible">Home</Link>
                 <Link to= "tracker" className="py-1  text-slate-200 text-tiny hover:text-red-400">Tracker</Link>
             
                {/* <Link to="" className="py-1  text-slate-200 text-tiny hover:text-red-400">Know Crypto</Link>
