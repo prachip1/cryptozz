@@ -13,14 +13,14 @@ return(
         <div className="flex justify-between">
             <div className="flex space-x-8">
                <div> {/*logo div*/}
-               <Link to="/" className="flex items-center  text-red-300 text-small">
+               <Link to="/cryptozz" className="flex items-center  text-red-300 text-small">
                   <span className="font-bold mt-1 text-lg ml-4">Cryptozzzz</span>
                  </Link>
                </div>
                {/*primary nav*/}
                <div className="flex items-center space-x-1 text-indigo-700 text-tiny lg:space-x-4 md:space-x-4">
-                <Link to="https://prachip1.github.io/crytozz" className="py-1  text-slate-200 text-tiny hover:text-red-400 invisible md:visible lg:visible">Home</Link>
-                <Link to= "https://prachip1.github.io/tracker" className="py-1  text-slate-200 text-tiny hover:text-red-400">Tracker</Link>
+                <Link to="/cryptozz" className="py-1  text-slate-200 text-tiny hover:text-red-400 invisible md:visible lg:visible">Home</Link>
+                <Link to= "/tracker" className="py-1  text-slate-200 text-tiny hover:text-red-400">Tracker</Link>
             
                {/* <Link to="" className="py-1  text-slate-200 text-tiny hover:text-red-400">Know Crypto</Link>
                 <Link to="" className="py-1  text-slate-200 text-tiny hover:text-red-400">Blog</Link>
