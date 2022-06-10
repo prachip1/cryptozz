@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function MyNav() {
 return(
-    <nav className=" py-5 bg-slate-700 m-0 px-0 lg:my-0 overflow-x-hidden">
+    <nav className="bg-opacity-0 m-0 px-0 lg:my-0 overflow-x-hidden">
      {/*main div*/}   
      <div className=" ">
         {/*logo and primary links div*/}
@@ -14,13 +14,21 @@ return(
             <div className="flex space-x-8">
                <div> {/*logo div*/}
                <Link to="/cryptozz" className="flex items-center  text-red-300 text-small">
-                  <span className="font-bold mt-1 text-lg ml-4">Cryptozzzz</span>
+                  <span className="font-bold  text-lg ml-4 mt-6">CryptozzNews</span>
                  </Link>
                </div>
                {/*primary nav*/}
-               <div className="flex items-center space-x-1 text-indigo-700 text-tiny lg:space-x-4 md:space-x-4">
-                <Link to="/cryptozz" className="py-1  text-slate-200 text-tiny hover:text-red-400 invisible md:visible lg:visible">Home</Link>
-                <Link to= "https://prachip1.github.io/cryptotracker/" className="py-1  text-slate-200 text-tiny hover:text-red-400">Tracker</Link>
+               <div className="flex items-center  text-indigo-700 text-tiny mt-4 ">
+                 <div className="bg-gradient-to-r from-indigo-500 via-red-300 to-purple-500 rounded p-1 ">
+              <div className="flex flex-col items-center bg-slate-800 p-1">
+              <button className="p-3 hover:bg-slate-500">  
+              <a href="https://prachip1.github.io/cryptotracker" target="_blank" className="text-white">Check Crypto Prices</a></button>
+            
+               
+              </div>
+          
+            </div>
+               
             
                {/* <Link to="" className="py-1  text-slate-200 text-tiny hover:text-red-400">Know Crypto</Link>
                 <Link to="" className="py-1  text-slate-200 text-tiny hover:text-red-400">Blog</Link>
