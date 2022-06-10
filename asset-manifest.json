@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cryptozz/static/css/main.e4e9893c.css",
-    "main.js": "/cryptozz/static/js/main.a194ac9c.js",
+    "main.js": "/cryptozz/static/js/main.1553c9ad.js",
     "index.html": "/cryptozz/index.html",
     "main.e4e9893c.css.map": "/cryptozz/static/css/main.e4e9893c.css.map",
-    "main.a194ac9c.js.map": "/cryptozz/static/js/main.a194ac9c.js.map"
+    "main.1553c9ad.js.map": "/cryptozz/static/js/main.1553c9ad.js.map"
   },
   "entrypoints": [
     "static/css/main.e4e9893c.css",
-    "static/js/main.a194ac9c.js"
+    "static/js/main.1553c9ad.js"
   ]
 }
