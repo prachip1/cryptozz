@@ -9,7 +9,7 @@ export default function News(){
 
 useEffect(()=>{
         axios
-        .get('https://min-api.cryptocompare.com/data/v2/news/?lang=EN&api_key=f6c7759742bd044954876b41f369da393bfc2ed928da6d34f364a3ca307ed81b')
+        .get('https://min-api.cryptocompare.com/data/v2/news/?lang=EN&api_key=f6c7759742bd044954876b41f369da393bfc2ed928da6d34f364a3ca307ed81b&per_page=20')
         .then(res =>{
             setNews(res.data.Data);
             console.log(res.data.Data);

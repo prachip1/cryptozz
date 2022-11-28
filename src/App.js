@@ -13,10 +13,7 @@ function App() {
   <Router>
    <MyNav />
    <Home />
-    <Routes>
-      <Route exact path="/cryptozz" element={<Home />} />
-     
-    </Routes>
+    
   </Router>
   
   </main>
